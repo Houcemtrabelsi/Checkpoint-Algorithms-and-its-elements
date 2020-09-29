@@ -1,1 +1,38 @@
-ALGORITHM ggg ;
+ALGORITHM Algorithm_and_items ;
+var 
+n:string;
+i,l,v:integer;
+w:integer:=1;
+
+
+BEGIN
+
+while (n="" ) do
+write("incorrect")
+end-while
+read(n)
+
+
+for i from 0 to length.n-1 do
+l=l+1
+end_for
+
+for i from 0 to length.n-1 do
+if (n[i]:=" ") then
+w=w+1
+end_if
+end_for
+
+
+for i from 0 to length.n-1 do
+if (n[i]:=(a,e,y,i,y,o,)) then
+v:=v+1
+end_for
+
+
+
+write("The length of the sentence is" + l)
+write("The number of words in the sentence is " + w)
+write("The number of vowels in the sentence is" + w)
+
+
